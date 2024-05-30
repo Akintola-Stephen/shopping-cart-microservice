@@ -1,7 +1,7 @@
 package com.microservice.orderservice.service;
 
-import com.microservice.orderservice.payload.request.OrderRequest;
-import com.microservice.orderservice.payload.response.OrderResponse;
+import com.microservice.orderservice.dto.request.OrderRequest;
+import com.microservice.orderservice.dto.response.OrderResponse;
 
 public interface OrderService {
     long placeOrder(OrderRequest orderRequest);

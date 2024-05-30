@@ -2,10 +2,11 @@ package com.microservice.orderservice.exception;
 
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
+@EqualsAndHashCode(callSuper = false)
 @Data
 public class OrderServiceCustomException extends RuntimeException {
-//    private static final long serialVersionUID = 1L;
     private String errorCode;
     private int status;
 

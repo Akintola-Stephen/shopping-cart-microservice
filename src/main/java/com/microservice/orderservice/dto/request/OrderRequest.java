@@ -1,4 +1,4 @@
-package com.microservice.orderservice.payload.request;
+package com.microservice.orderservice.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

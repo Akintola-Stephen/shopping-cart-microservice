@@ -1,4 +1,4 @@
-package com.microservice.orderservice.payload.response;
+package com.microservice.orderservice.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -7,6 +7,10 @@ import lombok.NoArgsConstructor;
 
 import java.time.Instant;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class OrderResponse {
     private long orderId;
     private Instant orderDate;

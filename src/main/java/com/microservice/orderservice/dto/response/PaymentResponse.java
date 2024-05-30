@@ -1,4 +1,4 @@
-package com.microservice.orderservice.payload.response;
+package com.microservice.orderservice.dto.response;
 
 import lombok.*;
 import java.time.Instant;
